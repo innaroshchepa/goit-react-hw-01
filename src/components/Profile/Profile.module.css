@@ -1,0 +1,125 @@
+ .profileCard {
+    width: 680px;
+    border: 4px solid #242424;
+    border-radius: 2%;
+    margin-bottom: 40px;
+}
+
+.profileInfo>img {
+    
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 280px;
+    background-color: #242424;
+}
+.nameTitle {
+    font-size: 55px;
+    font-weight: 700;
+}
+.nameInfo {
+    font-size: 32px;
+    color: #808080;
+}
+.statusList {
+    display: flex;
+    width: 100%;
+    border-top: 4px solid #808080;
+    font-size: 36px;
+    background-color: #A9A9A9;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin: 0;
+}
+.statusListItem {
+    display: flex;
+    width: 100%;
+    padding: 20px 34px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.statusListItem:not(:last-child) {
+    border-right: 4px solid #808080;
+}
+
+.statusListItemTitle {
+    margin-bottom: 8px;
+    font-size: 40px;
+   
+
+}
+
+.statusListItemAmount {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* .statusList {
+    display: flex;
+    width: 100%;
+    border-top: 2px solid #808080;
+    font-size: 36px;
+    background-color: #cccccc;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.statusListItem {
+    display: flex;
+    width: 100%;
+    padding: 20px 34px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.statusListItem:not(:last-child) {
+    border-right: 2px solid #808080;
+}
+
+.statusListItemTitle {
+    margin-bottom: 8px;
+}
+
+.statusListItemAmount {
+    font-weight: 600;
+} */
+
+
+
+
+
+/*
+.profileName {
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.profileTag {
+    color: dimgrey;
+    font-size: x-large;
+}
+
+.profileLocation {
+    color: dimgrey;
+    font-size: x-large;
+}
+
+.profileList {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.profileListItem {
+    width: auto;
+    display: flex;
+    background-color: darkgrey;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+
+.profileTitle {
+    font-size: large;
+} */
